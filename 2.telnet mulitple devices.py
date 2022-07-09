@@ -24,7 +24,6 @@ for IP in f:
    #writing those configurations commands
     tn.write(b"conf t\n") 
     tn.write(b"vlan 2\n")
-    tn.write(b"vlan 2\n")
     tn.write(b"name Python_VLAN_2\n")
     tn.write(b"exit\n")
     tn.write(b"vlan 3\n")
